@@ -1,0 +1,77 @@
+.co-win-main-container {
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 15px;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 120px;
+}
+.logo-image {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+.co-win-text {
+  font-family: 'Roboto';
+  color: #2cc6c6;
+  font-size: 18px;
+}
+.vaccination-text {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: normal;
+}
+.loading-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  height: 90vh;
+}
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.failure-text {
+  font-family: 'Open sans';
+  color: #ffffff;
+}
+.failure-image {
+  height: 30%;
+  width: 40%;
+}
+.success-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding: 10px;
+}
+.vaccination-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: center;
+  padding: 10px;
+  background-color: #1c1c2b;
+  margin: 10px;
+  width: 100%;
+}
+.vaccination-coverage-text {
+  font-family: 'Roboto';
+  color: #cbd5e1;
+}
