@@ -23,8 +23,8 @@ const VaccinationCoverage = props => {
         tick={{stroke: '#6c757d', strokeWidth: 1}}
       />
       <Legend wrapperStyle={{padding: 30}} />
-      <Bar dataKey="dose_1" name="Dose 1" fill="#2d87bb" />
-      <Bar dataKey="dose_2" name="Dose 2" fill="#f54394" />
+      <Bar dataKey="dose_2" name="Dose 2" fill="#2d87bb" />
+      <Bar dataKey="dose_1" name="Dose 1" fill="#f54394" />
     </BarChart>
   )
 }

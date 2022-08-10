@@ -9,8 +9,8 @@ const VaccinationByGender = props => {
         cx="50%"
         cy="50%"
         data={vaccinationByGenderList}
-        startAngle={0}
-        endAngle={180}
+        startAngle={180}
+        endAngle={0}
         innerRadius="40%"
         outerRadius="70%"
         dataKey="count"

@@ -100,8 +100,10 @@ class CowinDashboard extends Component {
   )
 
   getInProgressView = () => (
-    <div className="loading-view-container" testid="loader">
-      <Loader type="ThreeDots" color="#ffffff" height={80} width={80} />
+    <div className="loading-view-container">
+      <div testid="loader">
+        <Loader type="ThreeDots" color="#ffffff" height={80} width={80} />
+      </div>
     </div>
   )
 
